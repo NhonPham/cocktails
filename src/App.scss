@@ -68,9 +68,9 @@ Error
   display: inline-block;
 }
 .btn-primary {
-  background: $primaryColor;
+  background: hsl(305, 16%, 85%);
   color: $mainWhite;
-  border-color: $primaryColor;
+  border-color: hsl(305, 16%, 85%);
 }
 .btn-primary:hover {
   background: transparent;
