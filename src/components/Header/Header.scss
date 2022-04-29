@@ -1,0 +1,35 @@
+@import "../../scss/variables";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    height: 5rem;
+    border-bottom: 1px solid #476a2e;
+    box-shadow: $lightShadow;
+    font-family: "Roboto" !important;
+    &-logo {
+        padding-left:5%;
+        font-size: 2rem;
+        font-weight: bold;
+        color: hsl(221, 70%, 76%);
+    }
+    &-logo img {
+        width: 50px;
+        height: 50px;
+    }
+    &-link {
+        display: flex;
+        justify-content: center;
+    }
+    &-link a {
+        text-transform: capitalize;
+        display: inline-block;
+        font-weight: 800;
+        letter-spacing: 2px;
+        font-size: 1.2rem;
+        padding: 0.25rem 1.5rem;
+        color: hsl(221, 70%, 76%);
+    }
+}
